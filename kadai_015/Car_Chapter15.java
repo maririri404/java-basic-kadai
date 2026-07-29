@@ -9,7 +9,13 @@ public class Car_Chapter15 {
 	public void changeGear(int afterGear) {
 		
 		// 受け取ったギアに変更
+		int beforeGear = gear; 
+		
+		//ギアチェンジ
 		gear = afterGear;
+		
+		//★ギア変更を表示
+		System.out.println("ギア" + beforeGear + "から" + gear + "に切り替えました");
 		
 		// ギアに応じて速度を変更
 		switch (gear) {
@@ -24,7 +30,7 @@ public class Car_Chapter15 {
 	}
 	// 現在の速度を表示するメソッド
 	public void run() {
-		System.out.println("時速" + speed + "kmで走行中です。");
+		System.out.println("速度は時速" + speed + "kmです。");
 		
 	}
 
