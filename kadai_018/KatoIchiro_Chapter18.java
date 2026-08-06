@@ -3,13 +3,6 @@
 	// Kato_Chapter18を継承する子クラス
 	public class KatoIchiro_Chapter18 extends Kato_Chapter18 {
 
-	    // コンストラクタ
-	    public KatoIchiro_Chapter18() {
-	        familyName = "加藤";
-	        address = "東京都中野区〇×";
-	        setGivenName();
-	    }
-
 	    // 名をセットするメソッド
 	    public void setGivenName() {
 	        givenName = "一郎";
